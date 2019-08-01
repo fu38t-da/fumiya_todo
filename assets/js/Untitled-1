@@ -1,0 +1,37 @@
+Dom操作
+進んだら、ToDoアプリ
+
+##クリック
+let elm =
+document(html文書全部を指す).getElementById('id');
+elm.addEventListener('click',　//　addEventListnerは何でも指定できる万能　何か起こった際に起こすアクション
+ function(){
+   処理
+});
+
+functionの中にfumctionが重なることをコールバック地刻という
+
+##ランダム関数
+Math.randum()
+0以上　1未満の乱数が発生する
+
+console.log(Math.floor
+  (Math.randum() * 5));//5個の乱数
+let omikuji = ['大吉','中吉','小吉','吉','凶'];
+
+
+ローカルストレージ
+慣れない時は紙にif文を書く
+
+setItem(名前　,保存したいデータ)　データの保存ができる
+
+⌘＋Bでメニューバー出したり消したり
+
+ローカルストレージを使用するには
+データを一度jsonに渡さないといけない
+
+細かくファイルを残す
+関数ごとや機能ごとに分けるとミスが見つけやすい
+関数をごそっと抜いてみる
+
+五次元配列をローカルストレージに入れる
